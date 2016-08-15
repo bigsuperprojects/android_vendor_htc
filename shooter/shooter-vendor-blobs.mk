@@ -56,11 +56,9 @@ PRODUCT_COPY_FILES += \
     vendor/htc/shooter/proprietary/thermald:system/bin/thermald \
     vendor/htc/shooter/proprietary/wireless_modem:system/bin/wireless_modem \
     vendor/htc/shooter/proprietary/wireless_modem:system/xbin/wireless_modem \
-    vendor/htc/shooter/proprietary/libaudioalsa.so:/system/lib/libaudioalsa.so \
     vendor/htc/shooter/proprietary/libaudcal.so:/system/lib/libaudcal.so \
-    vendor/htc/shooter/proprietary/libacdbmapper.so:system/lib/libacdbmapper.so \
-    vendor/htc/shooter/proprietary/libacdbloader.so:system/lib/libacdbloader.so \
     vendor/htc/shooter/proprietary/libC2D2.so:/system/lib/libC2D2.so \
+    vendor/htc/shooter/proprietary/libCB.so:/system/lib/libCB.so \
     vendor/htc/shooter/proprietary/libc2d2_z180.so:/system/lib/libc2d2_z180.so \
     vendor/htc/shooter/proprietary/libcamerapp.so:/system/lib/libcamerapp.so \
     vendor/htc/shooter/proprietary/libcameraSP.so:/system/lib/libcameraSP.so \
@@ -93,6 +91,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/shooter/proprietary/libnetmgr.so:/system/lib/libnetmgr.so \
     vendor/htc/shooter/proprietary/liboemcamera.so:/system/lib/liboemcamera.so \
     vendor/htc/shooter/proprietary/libOlaEngine.so:/system/lib/libOlaEngine.so \
+    vendor/htc/shooter/proprietary/libOpenCL.so:/system/lib/libOpenCL.so \
     vendor/htc/shooter/proprietary/libOpenVG.so:/system/lib/libOpenVG.so \
     vendor/htc/shooter/proprietary/libposteffect.so:/system/lib/libposteffect.so \
     vendor/htc/shooter/proprietary/libqc-opt.so:/system/lib/libqc-opt.so \
